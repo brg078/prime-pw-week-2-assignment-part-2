@@ -26,8 +26,8 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// create the variable 'name' and set it as 'Dane'
+// create a conditional whereby if the variable 'name' is EXACTLY the name 'Mary' then the console logs "Hi, Mary!" or for any other name logs "How do you do?"
 // 
 //
 
@@ -45,8 +45,8 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// create the variable 'code' and give it the value '123'
+// create
 // 
 //
 
