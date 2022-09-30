@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// create the variable 'name' and set it as 'Dane'
-// create a conditional whereby if the variable 'name' is EXACTLY the name 'Mary' then the console logs "Hi, Mary!" or for any other name logs "How do you do?"
-// 
+// - Create the variable 'name' and set it equal to 'Dane'.
+// - Create a conditional where if the variable 'name' is EXACTLY set to 'Mary' then the console logs "Hi, Mary!" or for any other name logs "How do you do?"
+// - console.log = How do you do?
 //
 
 //CODE
@@ -45,10 +45,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// create the variable 'code' and give it the value '123'
-// create
-// 
-//
+// - Create a variable called 'secret' and do not assign a value to it.
+// - Create a variable called 'code' and set it equal to the number value '123'.
+// - Create a conditional where if the code is EXACTLY the number value '123' it assigns the value 'super'
+//        to the variable 'secret' as well as doubling the numerical value of the variable 'code'.
+// - Create another conditional where if the value of the variable 'code' is greater than 250 then the value
+//        'duper' is assigned to the variable 'secret'.
+// - Have the console log out the value of the variable 'secret'.
+// - console.log = super
 
 //CODE
 /*
@@ -70,10 +74,15 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// - Create a variable 'isStudent' and set it to the boolean value 'true'.
+// - Create a variable 'age' and set it to the number value '34'.
+// - Create a variable 'zip' and set it to the number value '55407'.
+// - Create a conditional where if the variable 'isStudent' is EXACTLY equal to true AND the value of the variable 'zip'
+//      is greater than 80000 the console logs "You're a student on the West Coast!";
+//      or else if 'isStudent' is false and 'age' is less than 30 the console logs "What are your hobbies?";
+//      or else if 'isStudent' is EXACTLY equal to 'true' the console logs "Welcome to Prime!";
+//      or else under any other condition the console logs "How about the weather?".
+// - console.log = Welcome to Prime!
 
 //CODE
 /*
