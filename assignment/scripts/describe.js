@@ -144,7 +144,8 @@ let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
-  colorOne = 'purple';
+  colorOne = 'purple'; colorTwo = 'purple'
+// FIX added after semicolon colorTwo = 'purple' to assign new value to colorTwo
 }
 */
 
@@ -156,9 +157,10 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-if (temp > 39 || time >= 4) {
+if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
 }
+//FIX, wrong operator, we needed 'and' (&&) instead of 'or'(||).
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -169,10 +171,11 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-if(minAge <= age) {
-  console.log('no entry');
-} else {
+if(minAge >= age) {
   console.log('enter');
+} else {
+  console.log('no entry');
 }
+FIX, console log outputs were backwards, banning entry for those 21 and over, could have modified the conditions as well to correct the issue.
 */
 
